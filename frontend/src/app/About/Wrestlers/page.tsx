@@ -30,7 +30,7 @@ export default function WrestlersList() {
                 setLoading(false);
             })
             .catch((err) => console.error("Fetch error:", err));
-    }, []);
+    }, [API_BASE_URL]);
 
     const openModal = (wrestler: Wrestler) => {
         setSelectedWrestler(wrestler);

@@ -12,7 +12,7 @@ services:
       - hbwc_network
 
   db:
-    image: postgres
+    image: postgres:15
     container_name: postgres_container
     restart: always
     environment:
@@ -23,6 +23,8 @@ services:
       - "5432:5432"  # Map container's port 5432 to host's port 5432
     networks:
       - hbwc_network
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
 
   backend:
     build: ./backend
@@ -41,6 +43,8 @@ services:
       - hbwc_network
 
 
+volumes:
+  postgres_data:
 
 networks:
   hbwc_network:
