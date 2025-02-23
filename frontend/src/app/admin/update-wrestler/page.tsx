@@ -45,7 +45,7 @@ function UpdateWrestlerContent() {
                 setError(err.message);
                 setLoading(false);
             });
-    }, [id]);
+    }, [id, API_BASE_URL]);
 
     const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
         if (!wrestler) return;
