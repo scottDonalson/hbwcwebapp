@@ -1,5 +1,5 @@
 # Use Node.js base image
-FROM node:18-alpine AS builder
+FROM node:18 AS builder
 
 # Set working directory
 WORKDIR /app
@@ -12,9 +12,6 @@ RUN npm install --frozen-lockfile
 
 # Copy the rest of the application
 COPY . .
-
-# Ensure Next.js is available
-RUN npx next --version  # Debugging step, remove if working
 
 # Build Next.js
 RUN npm run build
