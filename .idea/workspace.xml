@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd750e5f-89df-4d60-89a9-d96e0e1fa589" name="Changes" comment="reorganized" />
+    <list default="true" id="fd750e5f-89df-4d60-89a9-d96e0e1fa589" name="Changes" comment="updated font folder">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -64,6 +66,11 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ksdon\Desktop\Web Projects\HBWC\frontend\public\fonts" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -85,7 +92,7 @@
       <updated>1740268279531</updated>
       <workItem from="1740268281128" duration="358000" />
       <workItem from="1740288619808" duration="84000" />
-      <workItem from="1740288709513" duration="374000" />
+      <workItem from="1740288709513" duration="1767000" />
     </task>
     <task id="LOCAL-00001" summary="reorganized">
       <option name="closed" value="true" />
@@ -135,7 +142,23 @@
       <option name="project" value="LOCAL" />
       <updated>1740288839629</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="updated font">
+      <option name="closed" value="true" />
+      <created>1740289307277</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1740289307277</updated>
+    </task>
+    <task id="LOCAL-00008" summary="updated font folder">
+      <option name="closed" value="true" />
+      <created>1740289471485</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1740289471485</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,6 +169,8 @@
       <path value="$PROJECT_DIR$/backend" />
     </ignored-roots>
     <MESSAGE value="reorganized" />
-    <option name="LAST_COMMIT_MESSAGE" value="reorganized" />
+    <MESSAGE value="updated font" />
+    <MESSAGE value="updated font folder" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated font folder" />
   </component>
 </project>

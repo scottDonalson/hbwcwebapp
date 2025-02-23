@@ -4,21 +4,12 @@ import Navbar from "@/Components/NavBar/nav_bar";
 import Footer from "@/Components/Footer/footer";
 import GoogleAnalytics from "@/Components/GoogleAnalytics/GoogleAnalytics";
 
-import localFont from 'next/font/local'
+import localFont from 'next/font/local';
 
 const inter = localFont({
-    src: [
-        {
-            path: '../public/fonts/Inter-Regular.woff2',
-            weight: '400',
-            style: 'normal',
-        },
-        {
-            path: '../public/fonts/Inter-Bold.woff2',
-            weight: '700',
-            style: 'normal',
-        },
-    ],
+    src: '/fonts/Inter-Regular.woff2', // Must be relative to "public"
+    weight: '400',
+    style: 'normal',
     display: 'swap',
 });
 
