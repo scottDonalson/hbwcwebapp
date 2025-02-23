@@ -17,7 +17,7 @@ COPY . .
 RUN npm run build
 
 # Use a minimal Node.js image for production
-FROM node:18-alpine AS runner
+FROM node:18 AS runner
 WORKDIR /app
 
 # Copy only the necessary files from the builder stage
