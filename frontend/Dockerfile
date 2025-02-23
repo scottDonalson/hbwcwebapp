@@ -1,4 +1,4 @@
-# Use Node.js as the base image for building
+# Use Node.js base image
 FROM node:18-alpine AS builder
 
 # Set working directory
@@ -13,12 +13,11 @@ RUN npm install --frozen-lockfile
 # Copy the rest of the application
 COPY . .
 
-# Build Next.js (for production)
+# Ensure Next.js is available
+RUN npx next --version  # Debugging step, remove if working
+
+# Build Next.js
 RUN npm run build
-
-# Rebuild Tailwind (if applicable)
-RUN npm run postcss
-
 
 # Use a minimal Node.js image for production
 FROM node:18-alpine AS runner
