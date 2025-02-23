@@ -23,6 +23,7 @@ WORKDIR /app
 # Copy only the necessary files from the builder stage
 COPY --from=builder /app/.next /app/.next
 COPY --from=builder /app/public /app/public
+COPY --from=builder /app/public/fonts /app/public/fonts
 COPY --from=builder /app/package.json /app/package.json
 COPY --from=builder /app/node_modules /app/node_modules
 

@@ -45,6 +45,7 @@ services:
   nginx:
       image: nginx:latest
       container_name: hbwc_nginx
+      restart: always
       ports:
         - "80:80"
       volumes:
