@@ -13,9 +13,6 @@ RUN npm install --frozen-lockfile
 # Copy the entire project
 COPY . .
 
-# Ensure proper permissions for scripts
-RUN chmod +x ./mvnw
-
 # Build Next.js (for production)
 RUN npm run build
 
