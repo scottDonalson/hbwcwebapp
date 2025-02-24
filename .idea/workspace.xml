@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd750e5f-89df-4d60-89a9-d96e0e1fa589" name="Changes" comment="removed standalone">
+    <list default="true" id="fd750e5f-89df-4d60-89a9-d96e0e1fa589" name="Changes" comment="put standalone back">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/next.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/next.config.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +93,7 @@
       <workItem from="1740268281128" duration="358000" />
       <workItem from="1740288619808" duration="84000" />
       <workItem from="1740288709513" duration="2110000" />
-      <workItem from="1740290846974" duration="16460000" />
+      <workItem from="1740290846974" duration="18237000" />
     </task>
     <task id="LOCAL-00001" summary="reorganized">
       <option name="closed" value="true" />
@@ -280,7 +279,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740366956428</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="put standalone back">
+      <option name="closed" value="true" />
+      <created>1740367489849</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1740367489849</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -301,6 +308,7 @@
     <MESSAGE value="updated port for db" />
     <MESSAGE value="updated yml to make nginx conf file not readonly" />
     <MESSAGE value="removed standalone" />
-    <option name="LAST_COMMIT_MESSAGE" value="removed standalone" />
+    <MESSAGE value="put standalone back" />
+    <option name="LAST_COMMIT_MESSAGE" value="put standalone back" />
   </component>
 </project>
