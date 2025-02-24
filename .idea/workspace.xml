@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd750e5f-89df-4d60-89a9-d96e0e1fa589" name="Changes" comment="just needed an update" />
+    <list default="true" id="fd750e5f-89df-4d60-89a9-d96e0e1fa589" name="Changes" comment="added /out/ to github" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -91,7 +91,7 @@
       <workItem from="1740268281128" duration="358000" />
       <workItem from="1740288619808" duration="84000" />
       <workItem from="1740288709513" duration="2110000" />
-      <workItem from="1740290846974" duration="21957000" />
+      <workItem from="1740290846974" duration="22592000" />
     </task>
     <task id="LOCAL-00001" summary="reorganized">
       <option name="closed" value="true" />
@@ -349,7 +349,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740409856127</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="added /out/ to github">
+      <option name="closed" value="true" />
+      <created>1740410650110</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1740410650110</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -378,6 +386,7 @@
     <MESSAGE value="added to docker-compose.yml        took off :ro" />
     <MESSAGE value="removed a rouge nginx.conf file from the root directory" />
     <MESSAGE value="just needed an update" />
-    <option name="LAST_COMMIT_MESSAGE" value="just needed an update" />
+    <MESSAGE value="added /out/ to github" />
+    <option name="LAST_COMMIT_MESSAGE" value="added /out/ to github" />
   </component>
 </project>
