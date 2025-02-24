@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd750e5f-89df-4d60-89a9-d96e0e1fa589" name="Changes" comment="just needed a new push - no real change">
+    <list default="true" id="fd750e5f-89df-4d60-89a9-d96e0e1fa589" name="Changes" comment="added to docker-compose.yml     volumes:&#10;                                  - ./nginx.conf:/etc/nginx/nginx.conf:ro&#10;                                  - ./nginx.conf:/etc/nginx/conf.d/default.conf:ro  # ✅ Corrected path&#10;                                  - ./frontend/out:/usr/share/nginx/html:ro">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/Dockerfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +93,7 @@
       <workItem from="1740268281128" duration="358000" />
       <workItem from="1740288619808" duration="84000" />
       <workItem from="1740288709513" duration="2110000" />
-      <workItem from="1740290846974" duration="18865000" />
+      <workItem from="1740290846974" duration="20129000" />
     </task>
     <task id="LOCAL-00001" summary="reorganized">
       <option name="closed" value="true" />
@@ -296,7 +295,23 @@
       <option name="project" value="LOCAL" />
       <updated>1740406206163</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="removed a couple of volumes for nginx">
+      <option name="closed" value="true" />
+      <created>1740406291222</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1740406291222</updated>
+    </task>
+    <task id="LOCAL-00027" summary="added to docker-compose.yml     volumes:&#10;                                  - ./nginx.conf:/etc/nginx/nginx.conf:ro&#10;                                  - ./nginx.conf:/etc/nginx/conf.d/default.conf:ro  # ✅ Corrected path&#10;                                  - ./frontend/out:/usr/share/nginx/html:ro">
+      <option name="closed" value="true" />
+      <created>1740407476937</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1740407476937</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -319,6 +334,8 @@
     <MESSAGE value="removed standalone" />
     <MESSAGE value="put standalone back" />
     <MESSAGE value="just needed a new push - no real change" />
-    <option name="LAST_COMMIT_MESSAGE" value="just needed a new push - no real change" />
+    <MESSAGE value="removed a couple of volumes for nginx" />
+    <MESSAGE value="added to docker-compose.yml     volumes:&#10;                                  - ./nginx.conf:/etc/nginx/nginx.conf:ro&#10;                                  - ./nginx.conf:/etc/nginx/conf.d/default.conf:ro  # ✅ Corrected path&#10;                                  - ./frontend/out:/usr/share/nginx/html:ro" />
+    <option name="LAST_COMMIT_MESSAGE" value="added to docker-compose.yml     volumes:&#10;                                  - ./nginx.conf:/etc/nginx/nginx.conf:ro&#10;                                  - ./nginx.conf:/etc/nginx/conf.d/default.conf:ro  # ✅ Corrected path&#10;                                  - ./frontend/out:/usr/share/nginx/html:ro" />
   </component>
 </project>
