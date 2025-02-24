@@ -64,3 +64,4 @@ volumes:
 networks:
   hbwc_network:
     driver: bridge
+
