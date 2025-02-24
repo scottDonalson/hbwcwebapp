@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd750e5f-89df-4d60-89a9-d96e0e1fa589" name="Changes" comment="new frontend Dockerfile">
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+    <list default="true" id="fd750e5f-89df-4d60-89a9-d96e0e1fa589" name="Changes" comment="new docker-compose.yml">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +93,7 @@
       <workItem from="1740268281128" duration="358000" />
       <workItem from="1740288619808" duration="84000" />
       <workItem from="1740288709513" duration="2110000" />
-      <workItem from="1740290846974" duration="5861000" />
+      <workItem from="1740290846974" duration="10229000" />
     </task>
     <task id="LOCAL-00001" summary="reorganized">
       <option name="closed" value="true" />
@@ -239,7 +239,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740300089718</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="new docker-compose.yml">
+      <option name="closed" value="true" />
+      <created>1740300432624</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1740300432624</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -256,6 +264,7 @@
     <MESSAGE value="updated dockerfile to hopefully include fonts" />
     <MESSAGE value="optimized frontend Dockerfile" />
     <MESSAGE value="new frontend Dockerfile" />
-    <option name="LAST_COMMIT_MESSAGE" value="new frontend Dockerfile" />
+    <MESSAGE value="new docker-compose.yml" />
+    <option name="LAST_COMMIT_MESSAGE" value="new docker-compose.yml" />
   </component>
 </project>
